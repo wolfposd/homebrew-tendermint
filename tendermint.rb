@@ -5,6 +5,11 @@ class Tendermint < Formula
   head 'https://github.com/tendermint/tendermint.git', :using => :git, :tag => 'v.0.11.0'
   #url 'https://github.com/tendermint/tendermint.git', :tag => 'v0.11.0'
 
+    
+  head do
+    url 'https://github.com/tendermint/tendermint.git', :tag => 'v.0.11.0'
+  end
+  
   devel do
     url 'https://github.com/tendermint/tendermint.git', :branch => 'master'
   end
